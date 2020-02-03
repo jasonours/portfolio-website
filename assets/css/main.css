@@ -1433,6 +1433,10 @@ input, select, textarea {
 		background: url("images/icon-checkmark.png") 0px 1.05em no-repeat;
 	}
 
+	.check-list a {
+		text-decoration: none;
+	}
+
 		.check-list li:first-child {
 			padding-top: 0 !important;
 			border-top: 0 !important;
