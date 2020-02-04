@@ -1432,11 +1432,11 @@ input, select, textarea {
 		font-size: 1.2em;
 		background: url("images/icon-checkmark.png") 0px 1.05em no-repeat;
 	}
-
+		
 	.check-list a {
 		text-decoration: none;
 	}
-
+		
 		.check-list li:first-child {
 			padding-top: 0 !important;
 			border-top: 0 !important;
@@ -1510,6 +1510,42 @@ input, select, textarea {
 			background-color: #ce1a00;
 			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 		}
+
+	.fa {
+  		padding: 1em;
+  		font-size: 1em;
+  		width: 3em;
+  		text-align: center;
+  		text-decoration: none;
+		border-radius: 50%;
+				
+	}
+
+	.fa:hover {
+		   opacity: 0.8;
+	}
+	
+	.fa-twitter {
+		background: #55AcEE;
+		color: white;
+	}
+
+	.fa-instagram {
+ 		background: #007bb5;
+  		color: white;
+	}
+
+	.fa-linkedin {
+  		background: #007bb5;
+  		color: white;
+	}
+
+	.email {
+		color: black;
+		font-weight: bold;
+	}
+	
+	
 
 /* Header */
 
@@ -1632,8 +1668,8 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
-		#content a {
-			color: #ED391B;
+		#content a .fa-twitter {
+			color: #55ACEE;
 		}
 
 		#content header {
